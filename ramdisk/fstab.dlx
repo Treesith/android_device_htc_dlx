@@ -10,7 +10,7 @@
 #none /dev/timer_group cgroup rw,relatime,timer_slack 0 0
 
 #/dev/block/mmcblk0p32 /system ext4 rw,relatime,data=ordered 0 0
-#/dev/block/mmcblk0p34 /data ext4 rw,nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered 0 0
+#/dev/block/mmcblk0p34 /data ext4 rw,nodev,noatime,discard,noauto_da_alloc,data=ordered 0 0
 #/dev/block/mmcblk0p33 /cache ext4 rw,nosuid,nodev,noatime,data=ordered 0 0
 #/dev/block/mmcblk0p24 /devlog ext4 rw,nosuid,nodev,noatime,data=ordered 0 0
 #/dev/block/mmcblk0p16 /firmware/mdm vfat ro,relatime,fmask=0000,dmask=0000,allow_utime=0022,codepage=cp437,iocharset=iso8859-1,shortname=lower,errors=remount-ro 0 0
